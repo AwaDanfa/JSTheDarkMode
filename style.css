@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@300;400;500;600;700;800&family=Shippori+Antique+B1&display=swap');
+
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Anek Kannada', sans-serif;
+  font-family: 'Shippori Antique B1', sans-serif;
+  }
+
+  .dark-mode {
+  background-color: black;
+  color: white;
+  }
+
+
+  .img {
+    margin: auto;
+    display: block;
+    width: 50%;
+  }
+
+
+  button {
+    background-color:#050505;
+	border-radius:28px;
+	border:3px solid #030303;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #080808;
+  margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+
+
+  /* .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #000000;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px black;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  /* .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } */ 
